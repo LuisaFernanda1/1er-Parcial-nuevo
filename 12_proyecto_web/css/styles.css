@@ -39,3 +39,21 @@
 #pie {
     clear: both;
 }
+
+#logo-sep{
+    float:left; 
+    margin-top: 31px;
+}
+
+#titulos {
+    padding-left: 310px;
+}
+#titulos *{
+    margin: 0;
+    padding: 0;
+}
+#titulos *{ 
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
