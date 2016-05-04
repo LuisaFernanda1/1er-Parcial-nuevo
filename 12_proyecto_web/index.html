@@ -5,14 +5,29 @@
     <title>Proyecto web</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+<style>
+ nav li {
+     display: inline-block;
+     background-color: darksalmon;
+     padding: 10px;
+        }
+     nav a { 
+         display: inline-block;
+     padding: 10px;
+    }
+    nav a: hover
+    { 
+        background-color: azure;
+    }
+    </style>
 <body>
   <div class="container">
       <header id="encabezado">
       <!-- imagen con logo sep -->
-      <img id="logo-sep" src="#" alt="logo sep" width="300px" height="88px">
+      <img id="logo-sep" src="images/logo_sep.png" alt="logo sep" width="300px" height="88px">
       <!-- textos con titulos -->
       <div id="titulos">
-    <h1>Sitio Oficial del CETis No. 108</h1>     
+     <h1>Sitio Oficial del CETis No. 108</h1>     
      <h2>Subsecretaría de Educación Media Superior</h2> 
      <h3>Dirección General de Educación Tecnológica Industrial</h3>
      <h4>Centro de Estudios Tecnológicos industrial y de servicios No. 108</h4>
@@ -21,7 +36,11 @@
       <!-- imagenes sems-dgeti y cuadro de busqueda -->
       </header>
     <nav id="barra-navegacion">
-        barra de navegacion
+        <ul><!-- unordered list -->
+        <li><a> opcion 1</a></li>
+        <li><a> opcion 2</a></li>
+        <li><a> opcion 3</a></li>
+        </ul>
     </nav>
     <section id="contenido">
     <section id="nota-principal">
